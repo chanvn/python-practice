@@ -8,3 +8,5 @@ superhero['DateTime of birth'].str.split('T',expand=True)
 superhero
 print(superhero)
 
+superhero.to_excel('updated-data.xlsx')
+
